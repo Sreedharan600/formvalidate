@@ -10,7 +10,7 @@ function validateName(){
         nameError.innerHTML = "NAME IS REQUIRED";
         return false;
     }
-    if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
+    if(!name.match(/^[A-Za-z]+\s{1}[A-Za-z]+$/)){
         nameError.innerHTML = "WRITE FULL NAME";
         return false;
     }
